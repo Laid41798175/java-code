@@ -3,7 +3,6 @@ package projectEuler;
 public class Problem49 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		for (int i = 1000; i < 10000; i++) {
 			if (!isPrime(i)) continue;
 			int[] per = permutations(i);

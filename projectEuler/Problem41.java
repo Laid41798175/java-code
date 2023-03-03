@@ -5,7 +5,6 @@ public class Problem41 {
 	static int max = 0;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		max = 0;
 		

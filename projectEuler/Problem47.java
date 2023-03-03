@@ -5,8 +5,6 @@ import java.util.ArrayList;
 public class Problem47 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		primeNumbers = new ArrayList<>();
 		
 		int count = 0;

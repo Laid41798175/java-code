@@ -3,7 +3,6 @@ package projectEuler;
 public class Problem30 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		final int START = 10;
 		final int END = 500000;
 		String str;
