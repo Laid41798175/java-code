@@ -1,5 +1,3 @@
-package designPatterns;
-
 class Worker {
     private Worker() {
     }

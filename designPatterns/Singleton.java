@@ -1,5 +1,3 @@
-package designPatterns;
-
 public class Singleton {
     
     public static final Singleton Inst = new Singleton();

@@ -1,5 +1,3 @@
-package designPatterns;
-
 public class AbstractFactory {
     Application MSapp = new Application(new MSFactory());
     Application Appleapp = new Application(null);

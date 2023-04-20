@@ -1,3 +1,5 @@
+// LSP: Liskov Substitution Principle
+
 public class LSP {
 
     public static void main(String[] args) {
@@ -47,7 +49,7 @@ class Rectangle1 {
     private int width;
     private int height;
 
-    Rectangle(int w, int h) {
+    Rectangle1(int w, int h) {
         width = w;
         height = h;
     }
@@ -57,7 +59,7 @@ class Rectangle1 {
     }
 }
 
-class Square1 extends Rectangle {
+class Square1 extends Rectangle1 {
     Square1(int side) {
         super(side, side);
     }
@@ -80,7 +82,6 @@ class Rectangle2 implements IRectangle {
     private int width;
     private int height;
 
-    @Override
     public void setWidth(int width) {
         this.width = width;
     }
@@ -99,6 +100,7 @@ interface ISquare extends IShape {
 }
 
 class Sqaure2 implements ISquare {
+    // IRectangle rect is also okay.
     Rectangle2 rect;
 
     Sqaure2() {

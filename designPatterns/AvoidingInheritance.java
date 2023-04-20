@@ -1,5 +1,3 @@
-package designPatterns;
-
 interface IUser {
     public void print();
 }

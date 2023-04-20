@@ -1,5 +1,3 @@
-package designPatterns;
-
 public class Builder {
     Socket2 s1 = new Socket2.Builder().host("a").timeout(123).port(2).build();
     Socket2 s2 = new Socket2.Builder().timeout(12).ssl(false).host("aaa").port(235).build();
